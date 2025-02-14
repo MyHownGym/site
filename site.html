@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hown Coaching</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <style>
+        /* Reset des marges et paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .page-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            color: #153843;
+        }
+
+        button {
+            background-color: #153843;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #2c839e;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        form button {
+            width: 100%;
+        }
+
+        /* Widgets flottants */
+        .whatsapp-widget, .setmore-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 24px;
+            text-align: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .whatsapp-widget:hover, .setmore-widget:hover {
+            background-color: #128C7E;
+        }
+
+        .setmore-widget {
+            bottom: 100px;
+            background-color: #2196F3;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#coaching">My Hown Coaching</a></li>
+                <li><a href="#location">My Hown Location</a></li>
+                <li><a href="#studio">My Hown Studio</a></li>
+                <li><a href="#coach">My Hown Coach</a></li>
+                <li><a href="#philosophy">My Hown Philosophy</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page d'accueil -->
+    <section id="accueil" class="page-section">
+        <div class="container">
+            <h1>Bienvenue chez My Hown Coaching</h1>
+            <p>Le coaching privé adapté à vos besoins, pour un bien-être physique et mental optimisé.</p>
+        </div>
+    </section>
+
+    <!-- My Hown Coaching -->
+    <section id="coaching" class="page-section">
+        <div class="container">
+            <h2>My Hown Coaching</h2>
+            <p>Description de vos services de coaching privé.</p>
+        </div>
+    </section>
+
+    <!-- My Hown Location -->
+    <section id="location" class="page-section">
+        <div class="container">
+            <h2>My Hown Location</h2>
+            <p>Description de vos espaces de coaching privatisés.</p>
+        </div>
+    </section>
+
+    <!-- My Hown Studio -->
+    <section id="studio" class="page-section">
+        <div class="container">
+            <h2>My Hown Studio</h2>
+            <p>Description de ton studio.</p>
+        </div>
+    </section>
+
+    <!-- My Hown Coach -->
+    <section id="coach" class="page-section">
+        <div class="container">
+            <h2>My Hown Coach</h2>
+            <p>Qui est le coach ? Expérience, qualifications et approche.</p>
+        </div>
+    </section>
+
+    <!-- My Hown Philosophy -->
+    <section id="philosophy" class="page-section">
+        <div class="container">
+            <h2>My Hown Philosophy</h2>
+            <p>Explication de ta philosophie du coaching, approche, et valeurs.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="page-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="#">
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="page-section">
+        <div class="container">
+            <h2>FAQ</h2>
+            <p>Réponses aux questions fréquentes.</p>
+        </div>
+    </section>
+
+    <!-- WhatsApp Widget -->
+    <a href="https://wa.me/tonnuméro" class="whatsapp-widget" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Setmore Widget -->
+    <a href="https://setmore.com/tonlien" class="setmore-widget" target="_blank">
+        <button>Réserver une séance</button>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Hown Coaching. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
